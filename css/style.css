@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid green;
+}
+
+nav{
+    float: left;
+    width: 20%;
+
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 0px;
+    padding: 30px;
+    border: 1px solid;
+
+}
+nav ul li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    background-color: aquamarine;
+    color: white; 
+    
+}
+article{
+    text-align: center;
+    float: right;
+    width: 80%;
+    background-color: aliceblue;
+    border: 1px solid green;
+    padding: 0 20px;
+
+}
+footer{
+    text-align: center;
+    float: right;
+    width: 80%;
+    padding: 0 20px;
+}
+
+.satu{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+.dua{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+    
